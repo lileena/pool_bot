@@ -336,7 +336,7 @@ async def cmd_start(update: Update, ctx: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text(
         "🎱 Добро пожаловать в POOL&BEER!"
         "Подлейте пива, наслаждайтесь игрой!"
-        "И помните: одна компания - одна играb\n",
+        "И помните: одна компания - одна игра\n",
 
 
         reply_markup=queue_keyboard(),
