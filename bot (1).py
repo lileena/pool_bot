@@ -30,7 +30,7 @@ from telegram.ext import (
 BOT_TOKEN = "8793932137:AAG9MjNmhxsH91c2UwkQzyTgqIKtHfh0WXg"
 
 CONFIRM_TIMEOUT = 2 * 60       # 2 минуты на подтверждение
-GAME_DURATION   = 15 * 60      # 15 минут игры
+GAME_DURATION   = 25 * 60      # 15 минут игры
 EXTENSION_TIME  = 5 * 60       # +5 минут продления
 
 logging.basicConfig(
